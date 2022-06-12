@@ -5,6 +5,16 @@ alias mkdir="mkdir -p"
 alias e="$EDITOR"
 alias v="$VISUAL"
 
+# my custom yarn command
+alias yl="yarn lint --fix"
+alias yd="yarn dev"
+alias ytu="yarn test -u"
+alias yt="yarn test"
+
+alias ws="cd ~/Documents/workspace/"
+alias ssh_schewti="ssh-add -D & ssh-add ~/.ssh/id_rsa_schewti"
+alias ssh_default="ssh-add -D & ssh-add ~/.ssh/id_rsa"
+
 # Bundler
 alias b="bundle"
 
